@@ -23,6 +23,9 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "fire"
+    "hopeful",
+    "dog",
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +39,8 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "died",
+
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +55,12 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "Today was long and boring",
+    "My dog died",
+    "I felt great today.",
+    "That was chill",
+    "I had to work today",
+    "I biked to work today"
 ]
 
 # Human labels for each post above.
@@ -65,6 +76,12 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "negative",  # "Today was long and boring"
+    "neutral", # "My dog died"
+    "positive", # "I felt great today.""
+    "positive", # "That was chill"
+    "neutral", # "I had to work today"
+    "neutral", # "I biked to work today"
 ]
 
 # TODO: Add 5-10 more posts and labels.
